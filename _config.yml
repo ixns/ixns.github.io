@@ -23,7 +23,7 @@ email: IXNS@PROTONMAIL.COM
 description: >- # this means to ignore newlines until "baseurl:"
   A simple blog where I dive into curious topics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ixnus.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ixns.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iXNS777
 github_username:  ixns
 
