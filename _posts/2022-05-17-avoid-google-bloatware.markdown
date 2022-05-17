@@ -11,7 +11,7 @@ categories: lifehacks computers internet
 
 If you simply google:
 
-```how do I fix a flat tire?
+```
 how to fix a flat tire
 ```
 
