@@ -45,7 +45,8 @@ Well, think about it this way: MillerAutoPlaza's intentions in publishing that "
 
 Nothing wrong with that, making money is noble. But right now, I'd really just love MillerAutoPlaza and their bloat trackers to fuck off, kindly.
 
-Universities (sites with the .edu TLD) also want to make money. Universities make their money by paying professors to *spread knowledge*; MillerAutoPlaza makes their money by *selling you stuff*. 
+Universities (sites with the .edu TLD) also want to make money. But, Universities make their money by paying professors to *spread knowledge*; MillerAutoPlaza makes their money by *selling you stuff*. 
+
 Professors are paid generous salaries to share knowledge with the paying customers of the University (students). 
 So, let's find some ~~paid~~ unpaid University knowledge on how to change a tire by using our new trick!
 
