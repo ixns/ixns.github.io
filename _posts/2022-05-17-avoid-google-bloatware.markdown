@@ -40,16 +40,18 @@ Using a little known google search trick, we can avoid seeing any of these bloat
 
 
 
-#### Why would we do this? 
+### Why would we do this? 
 Well, think about it this way: MillerAutoPlaza's intentions in publishing that "tutorial" on how to change your tire is not meant to inform. It's meant to find *new hires* for MillerAutoPlaza, and track your location for use in marketing. As a business, they want to make more money.
 
 Nothing wrong with that, making money is noble. But right now, I'd really just love MillerAutoPlaza and their bloat trackers to fuck off, kindly.
 
-*Universities* don't want to make money. Well, the good ones anyways. Universities and their professors are mainly interested in educating.
+*Universities* (sites with the .edu TLD) also want to make money. Universities make their money by paying professors to *spread knowledge*; MillerAutoPlaza makes their money by *selling you stuff*. 
+Professors are paid generous salaries to share knowledge with the paying customers to the University (students). 
+So, now you get the gist of my point, let's find some ~~paid~~ unpaid University knowledge on how to change a tire :)
 
 
 
-#### So, the new query
+### The new query
 Google this instead:
 
 ```
@@ -71,7 +73,7 @@ Notice the lack of bloatware trackers?
 
 
 ## Other examples
-#### The normie pearl query
+### The normie pearl query
 
 The other day, I was curious how pearls are made. So, naturally, I googled:
 
@@ -89,7 +91,7 @@ Ok, you might say, that's the *Natural History Museum*.. They're good, right? Ye
 
 
 
-#### The new query
+### The new query
 
 Google this instead:
 
