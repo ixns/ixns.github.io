@@ -34,7 +34,7 @@ I want to change my tire! Get off my back, and stop trying to make money off me 
 
 
 ## How to avoid these bloated websites
-Using a little known google search trick, we can avoid seeing any of these bloated shitware sites ever again.
+Using a Google search trick, we can avoid seeing any of these bloated sites ever again.
 
 **To do this, we'll limit the Google search results to only domains with the .edu TLD.**
 
