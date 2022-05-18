@@ -34,21 +34,22 @@ I want to change my tire! Get off my back, and stop trying to make money off me 
 
 
 ## How to avoid these bloated websites
-
 Using a little known google search trick, we can avoid seeing any of these bloated shitware sites ever again.
 
 **To do this, we'll limit the Google search results to only domains with the .edu TLD.**
 
-#### Why would we do this? 
 
+
+#### Why would we do this? 
 Well, think about it this way: MillerAutoPlaza's intentions in publishing that "tutorial" on how to change your tire is not meant to inform. It's meant to find *new hires* for MillerAutoPlaza, and track your location for use in marketing. As a business, they want to make more money.
 
 Nothing wrong with that, making money is noble. But right now, I'd really just love MillerAutoPlaza and their bloat trackers to fuck off, kindly.
 
 *Universities* don't want to make money. Well, the good ones anyways. Universities and their professors are mainly interested in educating.
 
-#### So, the new query
 
+
+#### So, the new query
 Google this instead:
 
 ```
@@ -70,7 +71,6 @@ Notice the lack of bloatware trackers?
 
 
 ## Other examples
-
 #### The normie pearl query
 
 The other day, I was curious how pearls are made. So, naturally, I googled:
