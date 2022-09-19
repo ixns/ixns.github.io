@@ -15,15 +15,15 @@ When I read books, I skim through them generally. Writers tend to add plenty of 
 
 When it came to using VSCode to review Shopify app source codes, I applied this very Principle of Skimming, but got annoyed very quickly that I had to click on the next source file in order to open it, every time.
 
-##My source code review workflow
+## My source code review workflow
 So after getting annoyed and frustrated with VSCode, I booted up my terminal. And in doing this, I came up with a pretty great system for reviewing source codes in a productive and non-distracting way:
 
-1) Go to the root folder of the source code
-2) ``cd`` continuously until you find a folder which has a good amount of source files, all of which share the same extension (in my case it was .ts)
-3) type ``vim *.{file extension}``
-4) skim through whatever source file comes first (press 5 and then k repeatedly to move fast). find the main purpose of the file, as if you were reading a page from a book. ignore the small details if they don't help you to evaluate its purpose.
-5) after you have a vague idea what the file does, type the command ``:n`` in vim
-6) rinse and repeat until you've read all the files in that folder, then proceed onto other folders
+1. Go to the root folder of the source code
+2. ``cd`` continuously until you find a folder which has a good amount of source files, all of which share the same extension (in my case it was .ts)
+3. type ``vim *.{file extension}``
+4. skim through whatever source file comes first (press 5 and then k repeatedly to move fast). find the main purpose of the file, as if you were reading a page from a book. ignore the small details if they don't help you to evaluate its purpose.
+5. after you have a vague idea what the file does, type the command ``:n`` in vim
+6. rinse and repeat until you've read all the files in that folder, then proceed onto other folders
 
 
 Using this method is great because it requires very little. Furthermore, if you bring vim into fullscreen while doing this, it becomes immersive and distractionless. It lets you focus on just reading source files. And working in the terminal is always some fun.
