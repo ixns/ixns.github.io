@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[lyrics] i want to be in love when the endgame plays out - george hotz"
+title:  "I want to be in love when the endgame plays out"
 date:   2022-09-19 00:00:52 -0500
 categories: music geohot lyrics
 ---

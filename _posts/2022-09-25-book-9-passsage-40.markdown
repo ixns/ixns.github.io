@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Sensical Marcus Aurelius Passage"
+title:  "Meditations Book 9 Passage 40"
 date:   2022-09-25 00:00:52 -0500
 categories: philosophy books
 ---
