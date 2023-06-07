@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-09T15:42:51-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MR IXNS</title><subtitle>A simple blog where I dive into curious topics.</subtitle><entry><title type="html">Choosing a stack: how I review code</title><link href="http://localhost:4000/coding/code/shopify/2022/09/09/my-source-code-review.html" rel="alternate" type="text/html" title="Choosing a stack: how I review code" /><published>2022-09-09T06:08:52-04:00</published><updated>2022-09-09T06:08:52-04:00</updated><id>http://localhost:4000/coding/code/shopify/2022/09/09/my-source-code-review</id><content type="html" xml:base="http://localhost:4000/coding/code/shopify/2022/09/09/my-source-code-review.html">&lt;p&gt;Recently I’ve been learning more about the Shopify API, and building out my own minor Shopify app prototypes. Due to the opiniated nature of creating Shopify apps (you must use their UI library, follow their authentication flow, look for &lt;em&gt;their&lt;/em&gt; cookies, etc) , I’ve had the need to browse through other Shopify app source codes in order to understand how everything pieces together.&lt;/p&gt;
+
+&lt;p&gt;In doing this, it was initially difficult for me to review the code in these shopify apps effectively. To begin, I pulled up some of the source root directories into VSCode, using the tree browser to pick through the folders and inspect the files one by one. This works for the most part. VSCode has built in link-click-through which makes understanding each of the functions pretty easy.&lt;/p&gt;
+
+&lt;p&gt;That’s great, but for the most part looking at the actual functions being called is a distraction from the logical flow of the code.&lt;/p&gt;
+
+&lt;p&gt;When I read books, I skim through them generally. Writers tend to add plenty of fluff. by skipping sections you deem unimportant, you can find the core message of a text (with some margin of error) and then build upon it by reading deeply.&lt;/p&gt;
+
+&lt;p&gt;When it came to using VScode to review Shopify app sources, I applied this very Principle of Skimming, but got annoyed very quickly that I had to click on the next source file in order to open it, every time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;my source code review workflow&lt;/strong&gt;
+So after getting annoyed and frustrated with vscode, I booted up my terminal.&lt;/p&gt;
+
+&lt;p&gt;1) go to the root folder of the source code
+2) cd continuously until you find a folder which has a good amount of source files, all of which share the same extension (in my case it was .ts)
+3) type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim *.{file extension}&lt;/code&gt;
+4) skim through whatever source file comes first (press 5 and then k repeatedly to move fast). find the “gist” of the file, as if you were reading a page from a book. ignore the small details if they don’t help you to evaluate its purpose.
+5) after you’ve gotten the gist of the file, type the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:n&lt;/code&gt; into vim. 
+6) you’re done!&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt;ixns&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/51zRy3g-4XL.jpg&quot; alt=&quot;Wealth is of the heart and mind, not of the pocket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="coding" /><category term="code" /><category term="shopify" /><summary type="html">Recently I’ve been learning more about the Shopify API, and building out my own minor Shopify app prototypes. Due to the opiniated nature of creating Shopify apps (you must use their UI library, follow their authentication flow, look for their cookies, etc) , I’ve had the need to browse through other Shopify app source codes in order to understand how everything pieces together. In doing this, it was initially difficult for me to review the code in these shopify apps effectively. To begin, I pulled up some of the source root directories into VSCode, using the tree browser to pick through the folders and inspect the files one by one. This works for the most part. VSCode has built in link-click-through which makes understanding each of the functions pretty easy. That’s great, but for the most part looking at the actual functions being called is a distraction from the logical flow of the code. When I read books, I skim through them generally. Writers tend to add plenty of fluff. by skipping sections you deem unimportant, you can find the core message of a text (with some margin of error) and then build upon it by reading deeply. When it came to using VScode to review Shopify app sources, I applied this very Principle of Skimming, but got annoyed very quickly that I had to click on the next source file in order to open it, every time. my source code review workflow So after getting annoyed and frustrated with vscode, I booted up my terminal. 1) go to the root folder of the source code 2) cd continuously until you find a folder which has a good amount of source files, all of which share the same extension (in my case it was .ts) 3) type vim *.{file extension} 4) skim through whatever source file comes first (press 5 and then k repeatedly to move fast). find the “gist” of the file, as if you were reading a page from a book. ignore the small details if they don’t help you to evaluate its purpose. 5) after you’ve gotten the gist of the file, type the command :n into vim. 6) you’re done! ixns.</summary></entry><entry><title type="html">Why Google is so unbearable (and how to fix it)</title><link href="http://localhost:4000/lifehacks/computers/internet/2022/05/17/avoid-google-bloatware.html" rel="alternate" type="text/html" title="Why Google is so unbearable (and how to fix it)" /><published>2022-05-17T13:30:00-04:00</published><updated>2022-05-17T13:30:00-04:00</updated><id>http://localhost:4000/lifehacks/computers/internet/2022/05/17/avoid-google-bloatware</id><content type="html" xml:base="http://localhost:4000/lifehacks/computers/internet/2022/05/17/avoid-google-bloatware.html">&lt;h1 id=&quot;why-google-is-so-unbearable-and-how-to-fix-it&quot;&gt;Why Google is so unbearable (and how to fix it)&lt;/h1&gt;
+
+&lt;p&gt;If you simply google:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;how to fix a flat tire
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;the first website in the search results is &lt;a href=&quot;https://www.millerautoplaza.com/stuck-with-a-flat-tire-heres-how-to-change-a-tire-in-10-steps/&quot;&gt;this&lt;/a&gt; piece of bloatware, MillerAutoPlaza:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/change_a_tire_bloated.webp&quot; alt=&quot;image-20220517120328039&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Why are they asking for my location? There’s 3 different popups going on here.&lt;/p&gt;
+
+&lt;p&gt;Just look at the treemap for this site. Countless bloatware trackers, APIs and Javascript downloads just to load the page (&lt;em&gt;9mb of it to be precise!&lt;/em&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/bloat_car_treemap.webp&quot; alt=&quot;image-20220517115624659&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, and also, Miller is &lt;em&gt;hiring&lt;/em&gt; if you’re interested in &lt;strong&gt;joining the team&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/hiring.webp&quot; alt=&quot;image-20220517120328039&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I want to change my tire! Get off my back, and stop trying to make money off me for one second while I solve this tire crisis.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-avoid-these-bloated-websites&quot;&gt;How to avoid these bloated websites&lt;/h2&gt;
+&lt;p&gt;Using a Google search trick, we can avoid seeing any of these bloated sites ever again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To do this, we’ll limit the Google search results to only domains with the .edu TLD.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;why-would-we-do-this&quot;&gt;Why would we do this?&lt;/h3&gt;
+&lt;p&gt;Well, think about it this way: MillerAutoPlaza’s intentions in publishing that “tutorial” on how to change your tire is not meant to inform. It’s meant to find &lt;em&gt;new hires&lt;/em&gt; for MillerAutoPlaza, and track your location for use in marketing. As a business, they want to make more money.&lt;/p&gt;
+
+&lt;p&gt;Nothing wrong with that, making money is noble. But right now, I’d really just love MillerAutoPlaza and their bloat trackers to fuck off, kindly.&lt;/p&gt;
+
+&lt;p&gt;Universities (sites with the .edu TLD) also want to make money. But, Universities make their money by paying professors to &lt;em&gt;spread knowledge&lt;/em&gt;; MillerAutoPlaza makes their money by &lt;em&gt;selling you stuff&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Professors are paid generous salaries to share knowledge with the paying customers of the University (students). 
+So, let’s find some &lt;del&gt;paid&lt;/del&gt; unpaid University knowledge on how to change a tire by using our new trick!&lt;/p&gt;
+
+&lt;h3 id=&quot;the-new-query&quot;&gt;The new query&lt;/h3&gt;
+&lt;p&gt;Google this instead:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site:*.edu how to change a tire
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As we can see, the &lt;a href=&quot;https://www2.latech.edu/~bmagee/303win97/Group3/2245.html&quot;&gt;first result&lt;/a&gt; is very promising:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/change_a_tire_edu.webp&quot; alt=&quot;image-20220517120455356&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As long as you aren’t scared of some good old fashioned serif, and an admittedly unappealing &lt;em&gt;mustard yellow&lt;/em&gt; background, this website has all the information you need to change a tire! Woohoo!&lt;/p&gt;
+
+&lt;p&gt;Look at the treemap for this site:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/non_bloat_tree.webp&quot; alt=&quot;image-20220517120704662&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice the lack of bloatware trackers?&lt;/p&gt;
+
+&lt;h2 id=&quot;other-examples&quot;&gt;Other examples&lt;/h2&gt;
+&lt;h3 id=&quot;the-normie-pearl-query&quot;&gt;The normie pearl query&lt;/h3&gt;
+
+&lt;p&gt;The other day, I was curious how pearls are made. So, naturally, I googled:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;how are pearls made?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and found &lt;a href=&quot;https://www.nhm.ac.uk/discover/quick-questions/how-do-oysters-make-pearls.html&quot;&gt;this site&lt;/a&gt; as the first result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/pearls_bloated.webp&quot; alt=&quot;image-20220517121002024&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, you might say, that’s the &lt;em&gt;Natural History Museum&lt;/em&gt;.. They’re good, right? Yeah yeah, I think most museums are well intentioned. But if there’s one thing I can’t stand, it’s cookie popup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/elon_tweet_cookies.webp&quot; alt=&quot;image-20220517121134407&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-new-query-1&quot;&gt;The new query&lt;/h3&gt;
+
+&lt;p&gt;Google this instead:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;site:*.edu how are pearls made
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://www.geo.utexas.edu/courses/347k/redesign/Gem_Notes/Pearl/pearl_triple_page.htm&quot;&gt;first result&lt;/a&gt; now:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ixns/ixns.github.io/gh-pages/media/images/pearls_edu.webp&quot; alt=&quot;image-20220517121248375&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now we’re talking.&lt;/strong&gt; What we’ve just found is a comprehensive guide from some University class that describes everything there is to know about how pearls are formed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;And they didn’t ask me about cookies, because they don’t give a damn about selling anything to me!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now, go use this, and enjoy the Internet without bloat!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S, using this method you can find a TON of great computer science resources for basically free, here’s an amazing &lt;a href=&quot;https://courses.cs.vt.edu/~csonline/index.html&quot;&gt;Virginia Tech site&lt;/a&gt; I found while using this method!&lt;/p&gt;
+
+&lt;h2 id=&quot;also-spread-the-love&quot;&gt;Also, spread the love&lt;/h2&gt;
+
+&lt;p&gt;Feel free to share any other Google tricks by email:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IXNS@&lt;/strong&gt;protonmail.com&lt;/p&gt;</content><author><name></name></author><category term="lifehacks" /><category term="computers" /><category term="internet" /><summary type="html">Why Google is so unbearable (and how to fix it)</summary></entry><entry><title type="html">Album Review - In My Mind by Pharrell Williams</title><link href="http://localhost:4000/music/album-review/2022/02/09/pharrells-massive-success.html" rel="alternate" type="text/html" title="Album Review - In My Mind by Pharrell Williams" /><published>2022-02-09T14:08:52-05:00</published><updated>2022-02-09T14:08:52-05:00</updated><id>http://localhost:4000/music/album-review/2022/02/09/pharrells-massive-success</id><content type="html" xml:base="http://localhost:4000/music/album-review/2022/02/09/pharrells-massive-success.html">&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/6/63/Pharrell_-_In_My_Mind.png&quot; alt=&quot;In My Mind album cover&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pharrel Williams is best known for his breakout single &lt;a href=&quot;https://www.youtube.com/watch?v=ZbZSe6N_BXs&quot;&gt;Happy&lt;/a&gt;, a song which was SO POPULAR that it had all of America singing. This song was in the movie (Despicable Me 2)[https://en.wikipedia.org/wiki/Despicable_Me_2]. That’s big clout.&lt;/p&gt;
+
+&lt;p&gt;The year is 2014. Happy just dropped.&lt;/p&gt;
+
+&lt;p&gt;(2022-2014=8 years ago). 10 year old me remembers everyone and their mom, father, uncle and grandmother knew this song. Up until about 2 weeks ago, thats all I knew about Mr. Williams. (with the exception of the song &lt;a href=&quot;https://www.youtube.com/watch?v=nTOj3UQhkLA&quot;&gt;neon guts&lt;/a&gt; by lil uzi vert)
+With that said, Pharrell’s In My Mind is lightyears ahead of its 2006 release. The entire album feels like a 15 song affirmation that when you have a plan, you win. Skateboard P shows an inspiring amount of confidence in his vision, plan, and execution throughout.&lt;/p&gt;
+
+&lt;p&gt;SKATEBOARD P makes it very clear that even though his upbringing was fraught with darkness:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Imagine ten years old, full of doubt and defeat
+Growing up around criminals, with clout and deceit
+&lt;a href=&quot;https://genius.com/Pharrell-williams-best-friend-lyrics&quot;&gt;Best Friend&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and the death of his grandmother who inspired his music to begin with:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My grandma Loucelle used to tell me, “You about what you weep”
+She used to help me with my homework, addition, subtraction
+Added faith to my life and doubt got subtracted
+Wanna skip your mind from crying? Better learn something, son
+You be beatin’ on my couches, why don’t you try hit the drums?
+Look, ooh, you see me, Ma, they wish they could be me, Ma
+As I got better, her body was eaten by leukaemia
+Seventh grade, it was cursed and sad
+But the gift within it was when I first met Chad
+But even Chad could tell you that my Christmas was jinxed
+‘Cause Grandma Loucelle died on 12th 19th
+&lt;a href=&quot;https://genius.com/Pharrell-williams-best-friend-lyrics&quot;&gt;Best Friend&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He was able to find his way through that darkness, and build his vision for himself:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My nigga close your eyes. Just picture yourself just holdin’ pies
+Implement a plan and you surely rise. This promised by the man that controls the skies
+&lt;a href=&quot;https://genius.com/Pharrell-williams-how-does-it-feel-lyrics&quot;&gt;How does it feel&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;P comes back again again to this idea of “vision”, wiring together a plan and practicing it:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;It’s incredible how I etch my plans out
+To be physically subtle and financially stand out
+&lt;a href=&quot;https://genius.com/Pharrell-williams-show-you-how-to-hustle-lyrics&quot;&gt;Show you how to hustle&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whoever said anything worth working for would be painless?
+&lt;a href=&quot;https://genius.com/Pharrell-williams-best-friend-lyrics&quot;&gt;Best Friend&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And, my favorite track on the album: &lt;a href=&quot;https://www.youtube.com/watch?v=8B0R2sDJlL4&quot;&gt;You can do it too&lt;/a&gt;. You really can do it too, is basically what Pharrell is saying here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Go listen to the full album.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:blue&quot;&gt;ixns&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/51zRy3g-4XL.jpg&quot; alt=&quot;Wealth is of the heart and mind, not of the pocket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="music" /><category term="album-review" /><summary type="html">Pharrel Williams is best known for his breakout single Happy, a song which was SO POPULAR that it had all of America singing. This song was in the movie (Despicable Me 2)[https://en.wikipedia.org/wiki/Despicable_Me_2]. That’s big clout. The year is 2014. Happy just dropped. (2022-2014=8 years ago). 10 year old me remembers everyone and their mom, father, uncle and grandmother knew this song. Up until about 2 weeks ago, thats all I knew about Mr. Williams. (with the exception of the song neon guts by lil uzi vert) With that said, Pharrell’s In My Mind is lightyears ahead of its 2006 release. The entire album feels like a 15 song affirmation that when you have a plan, you win. Skateboard P shows an inspiring amount of confidence in his vision, plan, and execution throughout. SKATEBOARD P makes it very clear that even though his upbringing was fraught with darkness: Imagine ten years old, full of doubt and defeat Growing up around criminals, with clout and deceit Best Friend and the death of his grandmother who inspired his music to begin with: My grandma Loucelle used to tell me, “You about what you weep” She used to help me with my homework, addition, subtraction Added faith to my life and doubt got subtracted Wanna skip your mind from crying? Better learn something, son You be beatin’ on my couches, why don’t you try hit the drums? Look, ooh, you see me, Ma, they wish they could be me, Ma As I got better, her body was eaten by leukaemia Seventh grade, it was cursed and sad But the gift within it was when I first met Chad But even Chad could tell you that my Christmas was jinxed ‘Cause Grandma Loucelle died on 12th 19th Best Friend He was able to find his way through that darkness, and build his vision for himself: My nigga close your eyes. Just picture yourself just holdin’ pies Implement a plan and you surely rise. This promised by the man that controls the skies How does it feel P comes back again again to this idea of “vision”, wiring together a plan and practicing it: It’s incredible how I etch my plans out To be physically subtle and financially stand out Show you how to hustle Whoever said anything worth working for would be painless? Best Friend And, my favorite track on the album: You can do it too. You really can do it too, is basically what Pharrell is saying here. Go listen to the full album. ixns.</summary></entry></feed>
