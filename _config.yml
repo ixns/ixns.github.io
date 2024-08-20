@@ -20,12 +20,10 @@
 
 title: Matthew Laflamme
 email: matthewrlaflamme@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-A simple blog where I write what I am thinking for the world to see
+description: "A simple blog where I write what I am thinking for the world to see"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ixns.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ixns
 
 # Build settings
 theme: minima
